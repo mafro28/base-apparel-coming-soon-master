@@ -1,3 +1,40 @@
+body {
+    background-image: url("../images/bg-pattern-desktop.svg");
+    font-family: josefin sans, sans-serif;
+    color:hsl(0, 36%, 70%);
+    letter-spacing: 1px;;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+}
+
+.head1 {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.head2{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: hsl(0, 6%, 24%);
+}
+
+
+article {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -5,4 +42,8 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+footer {
+    color:hsl(0, 6%, 24%);
 }
